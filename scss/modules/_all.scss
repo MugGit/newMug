@@ -1,0 +1,12 @@
+//Include to get all modules//
+body {
+
+    @include mainFont(#333);
+}
+
+//Courtain Intro//
+
+.demo-1 {
+		height: 100%;
+		position: absolute;
+	}
