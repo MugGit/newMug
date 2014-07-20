@@ -1,3 +1,7 @@
 /*base*/
 
-@import "modules/all.scss";
+@import "modules/all";
+@import "modules/mixins";
+@import "modules/colors";
+@import "vendor/courtainIntro"
+@import "vendor/courtainIntroAnimations"

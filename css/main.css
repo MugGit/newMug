@@ -36,6 +36,15 @@ html {
   clear: both;
 }
 
+/*GRID*/
+
+/* line 3, partials/_grid.scss */
+
+.container {
+  width: 100%;
+  position: relative;
+}
+
 /*base*/
 
 /* line 2, /Applications/MAMP/htdocs/newMug/scss/modules/_all.scss */
@@ -49,25 +58,112 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
-/* line 9, /Applications/MAMP/htdocs/newMug/scss/modules/_all.scss */
+/*COLORS*/
+
+/* line 3, /Applications/MAMP/htdocs/newMug/scss/vendor/_courtainIntro.scss */
 
 .demo-1 {
   height: 100%;
   position: absolute;
 }
 
-/*GRID*/
+/* line 6, /Applications/MAMP/htdocs/newMug/scss/vendor/_courtainIntro.scss */
 
-/* line 3, partials/_grid.scss */
-
-.container {
+.demo-1 .sl-slider-wrapper {
+  position: absolute;
   width: 100%;
-  position: relative;
+  height: 100%;
+  top: 0;
+  left: 0;
 }
 
-/* line 6, partials/_grid.scss */
+/* line 13, /Applications/MAMP/htdocs/newMug/scss/vendor/_courtainIntro.scss */
 
-.demo-1 {
-  height: 100%;
+.demo-1 .deco {
+  width: 260px;
+  height: 260px;
+  border-radius: 50%;
   position: absolute;
+  bottom: 50%;
+  left: 50%;
+  border: 2px dashed #ddd;
+  border: 2px dashed rgba(150, 150, 150, 0.4);
+  margin: 0 0 0px -130px;
+}
+
+/* line 20, /Applications/MAMP/htdocs/newMug/scss/vendor/_courtainIntro.scss */
+
+.demo-1 [data-icon]:after {
+  width: 220px;
+  height: 220px;
+  border-radius: 50%;
+  content: attr(data-icon);
+  font-family: 'AnimalsNormal';
+  color: #999;
+  text-shadow: 0 0 1px #999;
+  position: absolute;
+  line-height: 220px;
+  text-align: center;
+  font-size: 100px;
+  top: 50%;
+  left: 50%;
+  margin: -110px 0 0 -110px;
+  -webkit-box-shadow: inset 0 0 0 10px #f7f7f7;
+  box-shadow: inset 0 0 0 10px #f7f7f7;
+}
+
+/* line 36, /Applications/MAMP/htdocs/newMug/scss/vendor/_courtainIntro.scss */
+
+.demo-1 .sl-slide h1,
+.demo-1 .sl-slide h2 {
+  text-shadow: 0 0 1px #000;
+  padding: 20px;
+  position: absolute;
+  font-size: 28px;
+  font-weight: 400;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  width: 80%;
+  left: 9.8%;
+  text-align: center;
+  line-height: 50px;
+  bottom: 40%;
+  margin: 0 0 -89px 0;
+}
+
+/* line 51, /Applications/MAMP/htdocs/newMug/scss/vendor/_courtainIntro.scss */
+
+.demo-1 .sl-slide h2 {
+  color: #000;
+  font-size: 34px;
+  font-weight: 700;
+  letter-spacing: 13px;
+  left: 10%;
+  bottom: 50%;
+  margin: 0 0 -120px 0;
+}
+
+/* line 63, /Applications/MAMP/htdocs/newMug/scss/vendor/_courtainIntro.scss */
+
+.demo-1 .bg-2 .sl-slide-inner,
+.demo-1 .bg-2 .sl-content-slice {
+  background: black;
+}
+
+/* line 69, /Applications/MAMP/htdocs/newMug/scss/vendor/_courtainIntro.scss */
+
+.demo-1 .bg-2 [data-icon]:after {
+  color: white;
+}
+
+/* line 72, /Applications/MAMP/htdocs/newMug/scss/vendor/_courtainIntro.scss */
+
+.demo-1 .bg-2 h2 {
+  color: white;
+}
+
+/* line 78, /Applications/MAMP/htdocs/newMug/scss/vendor/_courtainIntro.scss */
+
+.sl-slide.bg-2.sl-slide-vertical {
+  cursor: pointer;
 }
